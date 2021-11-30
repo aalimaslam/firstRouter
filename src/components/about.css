@@ -1,0 +1,41 @@
+.about-container{
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text-container{
+    padding:30px;
+    width:50vw;
+
+}
+.heading{
+    background:linear-gradient(to right,#1BDCE3,#38E7D1,#67F0B9,#97F69E,#891F00,#F9F871);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size:4rem;
+    padding:10px;
+}
+.description{
+    line-height: 110%;  
+    font-size: 1.1rem;
+    color:#ddd;
+    padding:10px;
+}
+.image-container{
+    padding:20px;
+}
+.image-container img{
+    width:500px;
+    height:auto;
+    color:white;
+}
+
+@media only screen and (max-width:1000px ){
+    .text-container{
+        width:100%;
+        padding:0;
+    }
+}
